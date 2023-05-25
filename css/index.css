@@ -19,10 +19,24 @@ body {
   width: 100%;
 }
 
-.main-nav {
+.main-nav-items-ctn {
   display: flex;
   justify-content: space-between;
-  /* gap: 1rem; */
+}
+
+.main-nav-items {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.main-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+  /* gap: 3rem; */
 }
 
 .home-button .logo {
@@ -34,13 +48,18 @@ body {
   justify-content: space-between;
 }
 
-.main-nav-items {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
 .main-nav-items li {
   list-style: none;
+}
+
+.main-nav-item-trigger {
+  font-size: 15px;
+  --p-font-family: "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+button {
+  background: none;
+  border: none;
 }
