@@ -1,0 +1,132 @@
+.slider {
+    position: absolute;
+    height: 1410px;
+    width: 618px;
+    left: 255px;
+    top: 890px;
+    
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position:absolute;
+    height:518px;
+    left:102px;
+    right:82px;
+    
+}
+.box_item{
+    height: 389px;
+    width: 389px;
+}
+.box_header{
+width: 342.15px;
+height: 25px;
+top: 407px;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #000000;
+
+}
+.box_paragraph{
+    width: 389px;
+    height: 78px;
+    gap: 16px;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #000000;
+top: 440.33px;
+}
+.box_link{
+width: 248px;
+height: 18px;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+display: flex;
+align-items: center;
+letter-spacing: 0.28px;
+text-transform: uppercase;
+color: #2F3132;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url("https://resource.logitech.com/w_1200,h_630,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/mx/master-series/2022-update/sept/mx-series-og-image.jpg?v=1");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    /* Other styling properties */
+    width: 1920px;
+    height: 810px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 1220px;
+    height: 90px;
+  }
+  
+  .main-nav-items-ctn {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-nav-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .main-nav {
+    width: 793px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    /* gap: 3rem; */
+  }
+  
+  .home-button .logo {
+    width: 80px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-nav-items li {
+    list-style: none;
+  }
+  
+  .main-nav-item-trigger {
+    font-size: 15px;
+    --p-font-family: "Lexend Deca", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  button {
+    background: none;
+    border: none;
+  }
+  
