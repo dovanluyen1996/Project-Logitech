@@ -1,4 +1,4 @@
-.slider {
+section {
     position: absolute;
     height: 1410px;
     width: 618px;
@@ -8,7 +8,6 @@
 }
 .box {
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
     position:absolute;
     height:518px;
@@ -29,7 +28,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 20px;
 line-height: 21px;
-display: flex;
 align-items: center;
 text-transform: uppercase;
 color: #000000;
@@ -44,7 +42,6 @@ font-style: normal;
 font-weight: 300;
 font-size: 16px;
 line-height: 22px;
-display: flex;
 align-items: center;
 color: #000000;
 top: 440.33px;
@@ -57,7 +54,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 18px;
-display: flex;
 align-items: center;
 letter-spacing: 0.28px;
 text-transform: uppercase;
